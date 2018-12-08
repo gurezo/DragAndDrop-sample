@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { DndModule } from 'ngx-drag-drop';
-
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,8 +8,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    DndModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
